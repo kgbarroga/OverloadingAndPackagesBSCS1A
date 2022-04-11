@@ -49,5 +49,13 @@ public class App {
          */
         System.out.println("The sum of 25 and 50 is " + App.computeSum(25, 50));
         System.out.println("The sum of 25 and 50 and 100 is " + App.computeSum(25, 50, 100));
+
+        /**
+         * Invoke Constructor from Pen Class, and Overload it
+         */
+        System.out.println("----------------------");
+        Pen p1 = new Pen("G-Tech Pilot");
+        Pen p2 = new Pen("G-Tech Pilot 0.04");
+        Pen p3 = new Pen(100);
     }
 }
